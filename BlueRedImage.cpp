@@ -2,7 +2,9 @@
 #include <fstream>
 
 using namespace std;
-
+// convert imagem.ppm imagem.png
+// convert ./images/Monument.png ppm:- | pnmtopl
+// ainpnm > ./images/Monument_p3.ppm
 int main () {
 
     // Create images
